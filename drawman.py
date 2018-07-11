@@ -60,6 +60,8 @@ def horizontal_axis(turtl, axis = 0):
     turtl.goto(-400, axis)
     turtl.penup()
 
+def point(size=0):
+    t.dot()
 
 def drawman_scale(scale):
     """
