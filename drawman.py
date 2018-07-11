@@ -43,10 +43,15 @@ def coordinate_axis():
 
 def coordinate_grid():
     pass
-    for i in range(-400, 401,_drawman_scale):
+    for i in range(0, 401,_drawman_scale):
         vertical_axis(t2, i)
-    for i in range(-300,300, _drawman_scale):
+    for i in range(0, -401,-1*_drawman_scale):
+        vertical_axis(t2, i)
+    for i in range(0,300, _drawman_scale):
         horizontal_axis(t2, i)
+    for i in range(0,-300, -1*_drawman_scale):
+        horizontal_axis(t2, i)
+
 
 def vertical_axis(turtl, axis = 0):
     turtl.goto(axis, 300)
