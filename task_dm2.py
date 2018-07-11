@@ -1,7 +1,7 @@
 from drawman import *
 from time import sleep
 
-drawman_scale(10)
+drawman_scale(40)
 coordinate_grid_axis()
 
 def f(x):
