@@ -42,8 +42,8 @@ def init_main_window():
                           variable=variable)
     text = tkinter.Entry(root, textvariable=variable)
 
-    for obj in button1, button2, label, scale, text:
-        obj.pack()
+    for object in button1, button2, label, scale, text:
+        object.pack()
 
 
 
